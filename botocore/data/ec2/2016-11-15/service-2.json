@@ -23569,6 +23569,10 @@
           "shape":"String",
           "documentation":"<p>A description string for the import image task.</p>"
         },
+        "ImageName":{
+          "shape":"String",
+          "documentation":"<p>A name for imported AMI.</p> <p>Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes ('), at-signs (@), or underscores(_)</p>"
+        },
         "DiskContainers":{
           "shape":"ImageDiskContainerList",
           "documentation":"<p>Information about the disk containers.</p>",
